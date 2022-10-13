@@ -1,0 +1,236 @@
+body {
+    background: rgb(106, 105, 105); 
+    background-size: cover;  
+
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(18, 189, 232);  
+    font-family: 'Roboto Mono', monospace;
+}
+
+.clearfix {
+    clear: both;
+}
+.GET {
+    background: rgb(86, 86, 95);
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    float: left;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px rgba(135, 8, 240, 1.5);
+    border: 8px double black;
+}
+
+.POST {
+    background: rgb(86, 86, 92);
+    margin-left: 100px;
+    margin-top: 20px;   
+    height: auto;
+    width: 500px;
+    border-radius: 25px;
+    float: left;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(221, 8, 8, 1.5);
+    border: 8px double black;
+}
+
+.ShowGET {
+    border-radius: 25px;
+}
+
+/* GET */
+.sensor_GET {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sensor_GET {
+    text-align: center;
+    color: rgb(20, 15, 15);
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.sensor_GET input[type="text"],
+.sensor_GET input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 4px solid rgb(210, 33, 33);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background: rgb(99, 97, 97);  
+}
+.sensor_GET input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(140, 124, 124);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(129, 15, 164);
+}
+.sensor_GET input[type="submit"]:hover{
+    color: #0e0e15;
+    background: #0dd5e7;
+
+} 
+
+/* POST */
+.sensor_POST {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sensor_POST {
+    text-align: center;
+    color: rgb(10, 9, 9);
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.sensor_POST input[type="text"],
+.sensor_POST input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 4px solid rgb(191, 102, 13);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background: rgb(57, 55, 55);  
+}
+.sensor_POST input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(141, 136, 136);
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(129, 15, 164);
+}
+.sensor_POST input[type="submit"]:hover {
+    color: #0e0e15;
+    background: #0dd5e7;
+}
+
+/* ShowGET */
+.ShowGET {
+    background: rgb(93, 93, 101);
+    width: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: auto;
+    
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 10px rgb(239, 11, 190);
+}
+button {
+    padding: 10px 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    transition: all 0.25s ease;
+    
+}
+.UI {
+    text-align: center;
+}
+
+ .U {
+    border: 8px double black;
+    margin-top: 30px;
+    height: auto;
+} 
+
+.Faecbook {
+    color: rgb(245, 246, 247);
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(243, 4, 48, 0.5), 
+    0px 0px 0px 0px rgb(143, 64, 248, 0.5);
+}
+.Faecbook:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0px rgba(107, 3, 243, 0.5), -10px 10px 25px 0px rgba(231, 2, 158, 0.5);
+}
+.Faecbook:hover::after {
+    transform: rotate(150deg);
+}
+.Faecbook::after {
+
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: rgb(90, 19, 222);
+    background-image: linear-gradient(225deg, #0a13c1 0%, #9011b3 50%, #c30818 100%);
+    z-index: -1;
+    transition: all 0.25s ease;
+    
+}
+
+.Line {
+    color: rgb(245, 246, 247);
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(54, 239, 12, 0.5), 
+    0px 0px 0px 0px rgba(45, 190, 154, 0.5);
+}
+.Line:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0px rgba(132, 226, 10, 0.5), -10px 10px 25px 0px rgba(4, 222, 44, 0.5);
+}
+.Line:hover::after {
+    transform: rotate(150deg);
+}
+.Line::after {
+
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: rgb(195, 49, 49);
+    background-image: linear-gradient(225deg, #068fca 0%, #0ece07 50%, #a3de0d 100%);
+    z-index: -1;
+    transition: all 0.25s ease;
+    
+}
+
+.Instagram {
+    color: rgb(245, 246, 247);
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px -0px 0px 0px rgba(239, 12, 156, 0.5), 
+    0px 0px 0px 0px rgba(228, 5, 5, 0.5);
+}
+.Instagram:hover {
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0px rgba(51, 7, 154, 0.5), -10px 10px 25px 0px rgba(222, 4, 40, 0.5);
+}
+.Instagram:hover::after {
+    transform: rotate(150deg);
+}
+.Instagram::after {
+
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: rgb(195, 49, 49);
+    background-image: linear-gradient(225deg, #e9970a 10%, #eb14b1 40%, #f10606 100%);
+    z-index: -1;
+    transition: all 0.25s ease; 
+}
